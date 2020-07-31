@@ -8,6 +8,10 @@
     <artifactId>test-mvn-01</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <properties>
+        <httpclient.version>4.5.12</httpclient.version>
+    </properties>
+
     <distributionManagement>
         <repository>
             <id>codingcorp-test-mvn-01-mvn-01</id>
@@ -21,7 +25,7 @@
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
-            <version>4.5.12</version>
+            <version>${httpclient.version}</version>
         </dependency>
     </dependencies>
 
