@@ -19,7 +19,7 @@
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
         <dependency>
-            <groupId>org.apache.httpcomponents</groupId>
+            <groupId>${httpclient.groupId}</groupId>
             <artifactId>httpclient</artifactId>
             <version>${httpclient.version}</version>
         </dependency>
